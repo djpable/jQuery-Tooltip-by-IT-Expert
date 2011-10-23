@@ -1,0 +1,80 @@
+/* Bubble pop-up */
+div.popup {
+    position: absolute;
+/*    right: 0;
+    bottom: 0;*/
+}
+div.popup table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+    height: 100%;
+}
+div.popup td  {
+    padding: 0;
+}
+div.popup td.center {
+    background-color: rgb(245,126,30);
+    background-image: linear-gradient(left , rgb(247,142,29) 23%, rgb(243,110,32) 69%);
+    background-image: -o-linear-gradient(left , rgb(247,142,29) 23%, rgb(243,110,32) 69%);
+    background-image: -moz-linear-gradient(left , rgb(247,142,29) 23%, rgb(243,110,32) 69%);
+    background-image: -webkit-linear-gradient(left , rgb(247,142,29) 23%, rgb(243,110,32) 69%);
+    background-image: -ms-linear-gradient(left , rgb(247,142,29) 23%, rgb(243,110,32) 69%);
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(0.23, rgb(247,142,29)),
+        color-stop(0.69, rgb(243,110,32))
+        );
+    /*filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#444444', EndColorStr='#999999');*/ /* IE6,IE7 */
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#444444', EndColorStr='#999999')";*/ /* IE8 */
+}
+div.popup div.popup-content {
+    margin-left: -30px;
+    text-align: center;
+}
+div.popup td#topleft { 
+    background-image: url(alloggio_upperleft.png); 
+    height: 13px;
+    width: 62px;
+}
+div.popup td.top {
+    background-image: url(alloggio_uppercenter.png);
+    background-repeat: no-repeat;
+    background-size: 100% 13px;
+    height: 13px;
+}
+div.popup td#topright {
+    background-image: url(alloggio_upperright.png);
+    height: 13px;
+    width: 16px;
+}
+div.popup td.left {
+    background-image: url(alloggio_left.png);
+    width: 62px;
+}
+div.popup td.right {
+    background-image: url(alloggio_right.png);
+    width: 16px;
+}
+div.popup td#bottomleft {
+    background-image: url(alloggio_bottomleft.png);
+    height: 35px;
+    width: 62px;
+}
+div.popup td.bottom {
+    background-image: url(alloggio_bottomcenter.png);
+    background-repeat: no-repeat;
+    background-size: 100% 35px;
+    height: 35px;
+}
+div.popup td#bottomright {
+    background-image: url(alloggio_bottomright.png);
+    height: 35px;
+    width: 16px;
+}
+div.popup img.spinner {
+    width: 48px;
+    height: 48px;
+}

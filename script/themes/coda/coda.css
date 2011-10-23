@@ -1,0 +1,39 @@
+/* Bubble pop-up */
+div.popup {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+div.popup table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+    height: 100%;
+}
+div.popup td  {
+    padding: 0;
+}
+div.popup td.center {
+    background-color: white;
+}
+div.popup div.popup-content {
+    text-align: center;
+}
+div.popup td.corner {
+    height: 15px;
+    width: 19px;
+}
+div.popup td#topleft { background-image: url(bubble-1.png); }
+div.popup td.top { background-image: url(bubble-2.png); }
+div.popup td#topright { background-image: url(bubble-3.png); }
+div.popup td.left { background-image: url(bubble-4.png); }
+div.popup td.right { background-image: url(bubble-5.png); }
+div.popup td#bottomleft { background-image: url(bubble-6.png); }
+div.popup td.bottom { background-image: url(bubble-7.png); text-align: center;}
+div.popup td.bottom img { display: block; margin: 0 auto; }
+div.popup td#bottomright { background-image: url(bubble-8.png); }     
+
+div.popup img.spinner {
+    width: 48px;
+    height: 48px;
+}
